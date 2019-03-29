@@ -68,7 +68,7 @@ class MonsoonBrands extends PolymerElement {
         import('./monsoon-about.js');
         break;
       case 'contact':
-        import('./monsoon-conact.js');
+        import('./monsoon-contact.js');
         break;
       case 'view404':
         import('./my-view404.js');
