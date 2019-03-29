@@ -1,5 +1,5 @@
-import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
-import { setPassiveTouchGestures, setRootPath } from '@polymer/polymer/lib/utils/settings.js';
+import {PolymerElement, html} from '@polymer/polymer/polymer-element.js';
+import {setPassiveTouchGestures, setRootPath} from '@polymer/polymer/lib/utils/settings.js';
 import '@polymer/app-route/app-location.js';
 import '@polymer/app-route/app-route.js';
 import '@polymer/iron-pages/iron-pages.js';
@@ -36,16 +36,16 @@ class MonsoonBrands extends PolymerElement {
       page: {
         type: String,
         reflectToAttribute: true,
-        observer: '_pageChanged'
+        observer: '_pageChanged',
       },
       routeData: Object,
-      subroute: Object
+      subroute: Object,
     };
   }
 
   static get observers() {
     return [
-      '_routePageChanged(routeData.page)'
+      '_routePageChanged(routeData.page)',
     ];
   }
 
