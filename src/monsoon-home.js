@@ -36,7 +36,7 @@ class MonsoonHome extends PolymerElement {
 
 <div class="header">
   <h1>
-    <a href="/">Monsoon Brands</a>
+    <a href="/" class="logo">Monsoon Brands</a>
   </h1>
 </div>
     `;
