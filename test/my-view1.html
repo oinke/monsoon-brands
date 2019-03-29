@@ -3,16 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
-
     <title>my-view1</title>
-
     <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
     <script src="../node_modules/wct-browser-legacy/browser.js"></script>
-
-    <!-- Import the element to test -->
     <script type="module" src="../src/monsoon-home.js"></script>
   </head>
   <body>
+
     <test-fixture id="BasicView">
       <template>
         <monsoon-home></monsoon-home>
@@ -21,13 +18,13 @@
 
     <script type="module">
       suite('my-view1 tests', function() {
-        test('Number in circle should be 1', function() {
+        test('h1 should be Monsoon Brands', function() {
           var myView = fixture('BasicView');
           var circle = myView.shadowRoot.querySelector('.logo');
-
           assert.equal(circle.textContent, 'Monsoon Brands');
         });
       });
     </script>
+    
   </body>
 </html>
