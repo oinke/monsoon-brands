@@ -26,11 +26,11 @@ class MonsoonHome extends PolymerElement {
         }
         h1 a {
           background: url(./images/monsoon-brands.svg);
-          background-size: cover;
-          width: 255px;
-  
+          background-size: contain;
           display: block;
           text-indent: -1000em;
+          height: 22px;
+          background-repeat: no-repeat;
         }
         .container img {
           width: 200px;
@@ -41,10 +41,10 @@ class MonsoonHome extends PolymerElement {
         }
         .body .container {
           display: grid;
-          grid-template-columns: 200px 200px 200px 200px 200px;
-          grid-template-rows: 200px 200px 200px 200px 200px;
-          grid-column-gap: 12px;
-          grid-row-gap: 12px;
+          grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+          grid-template-rows: repeat(6, 200px);
+          grid-gap: 12px;
+          grid-auto-flow: dense;
         }
       </style>
 
