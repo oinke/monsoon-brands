@@ -40,6 +40,7 @@ class MonsoonHome extends PolymerElement {
           margin-top: 100px;
         }
         .body .container {
+          max-width: 1048px;
           display: grid;
           grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
           grid-template-rows: repeat(6, 200px);
