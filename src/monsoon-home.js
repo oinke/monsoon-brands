@@ -39,6 +39,13 @@ class MonsoonHome extends PolymerElement {
         .body{
           margin-top: 100px;
         }
+        .body .container {
+          display: grid;
+          grid-template-columns: 200px 200px 200px 200px 200px;
+          grid-template-rows: 200px 200px 200px 200px 200px;
+          grid-column-gap: 12px;
+          grid-row-gap: 12px;
+        }
       </style>
 
 <div class="header">
