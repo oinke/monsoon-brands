@@ -32,12 +32,36 @@ class MonsoonHome extends PolymerElement {
           display: block;
           text-indent: -1000em;
         }
+        .container img {
+          width: 200px;
+          height: 200px;
+        }
+        .body{
+          margin-top: 100px;
+        }
       </style>
 
 <div class="header">
   <h1>
     <a href="/" class="logo">Monsoon Brands</a>
   </h1>
+</div>
+<div class="body">
+  <section class="container">
+      <img src="./images/products/slant-glass.jpg">
+      <img src="./images/products/watermellon-knife.jpg">
+      <img src="./images/products/milk-box.jpg">
+      <img src="./images/products/cotton-buds.jpg">
+      <img src="./images/products/door-jam.png">
+      <img src="./images/products/fruit-infuser.png">
+      <img src="./images/products/mango-slicer.jpeg">
+      <img src="./images/products/dip-jar.jpg">
+      <img src="./images/products/lens-mug.jpg">
+      <img src="./images/products/potato-ricer.jpg">
+      <img src="./images/products/coffee-grinder.jpg">
+      <img src="./images/products/wine-aerator.jpg">
+      <img src="./images/products/pizza-cutter.jpg">
+  </section>
 </div>
     `;
   }
