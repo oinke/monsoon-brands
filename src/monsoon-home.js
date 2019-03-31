@@ -60,7 +60,7 @@ class MonsoonHome extends PolymerElement {
       <img src="./images/products/milk-box.jpg">
       <img src="./images/products/cotton-buds.jpg">
       <img src="./images/products/door-jam.png">
-      <img src="./images/products/fruit-infuser.png">
+      <img src="./images/products/fruit-infuser.jpg">
       <img src="./images/products/mango-slicer.jpeg">
       <img src="./images/products/dip-jar.jpg">
       <img src="./images/products/lens-mug.jpg">
@@ -68,6 +68,10 @@ class MonsoonHome extends PolymerElement {
       <img src="./images/products/coffee-grinder.jpg">
       <img src="./images/products/wine-aerator.jpg">
       <img src="./images/products/pizza-cutter.jpg">
+      <img src="./images/products/icepop-bags.png">
+      <img src="./images/products/pasta-measurer.jpg">
+
+      
   </section>
 </div>
     `;
