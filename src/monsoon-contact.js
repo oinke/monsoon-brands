@@ -1,7 +1,7 @@
 import {PolymerElement, html} from '@polymer/polymer/polymer-element.js';
 import './shared-styles.js';
 
-class MonsoonBrands extends PolymerElement {
+class MonsoonContact extends PolymerElement {
   static get template() {
     return html`
       <style include="shared-styles">
@@ -22,4 +22,4 @@ class MonsoonBrands extends PolymerElement {
   }
 }
 
-window.customElements.define('monsoon-brands', MonsoonBrands);
+window.customElements.define('monsoon-contact', MonsoonContact);
